@@ -16,10 +16,6 @@ ul, li {
     list-style-type: none;
 }
 
-h2 {
-    width: 4rem;
-}
-
 a {
     text-decoration: none;
     color: #8bb3ff;
@@ -63,7 +59,7 @@ a:hover {
     gap: 1rem;
 }
 
-.vertical {
+#contact-container {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
@@ -73,4 +69,36 @@ a:hover {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    .container {
+        padding: 0.5rem;
+    }
+    .horizontal-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+        margin: 0.5rem;
+        border-bottom: 0.5px solid #8bb3ff;
+        gap: 1rem;
+    }
+    .medium-width {
+        text-align: center;
+        width: auto;
+    }
+    #contact-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .horizontal-list {
+        gap: 1rem;
+        justify-content: center; /* Center the list items horizontally */
+    }
 }
