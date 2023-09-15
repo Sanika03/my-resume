@@ -29,17 +29,24 @@ a:hover {
 .horizontal-container {
     display: flex;
     gap: 10rem;
-    width: 60rem;
+    width: 90%;
     margin: 3rem;
 }
 
 .spaced-content{
     justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #F5D7DB;
+}
+
+#about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #medium-width {
-    margin-top: 20px;
-    width: 25rem;
+    width: 80%;
 }
 
 .bold {
@@ -56,5 +63,5 @@ a:hover {
 .vertical {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    margin-right: 10px;
 }
