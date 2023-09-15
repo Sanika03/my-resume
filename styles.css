@@ -45,7 +45,7 @@ a:hover {
     justify-content: space-between;
 }
 
-#medium-width {
+.medium-width {
     width: 80%;
 }
 
@@ -64,4 +64,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
+}
+
+.horizontal-list {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
