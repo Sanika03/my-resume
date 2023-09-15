@@ -1,5 +1,5 @@
 body {
-    padding: 1rem 5rem;
+    padding: 1rem 10rem;
     background-color: #06142e;
     color: #F5D7DB;
 }
@@ -44,4 +44,11 @@ a:hover {
 
 .bold {
     font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.mid-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
