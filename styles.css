@@ -2,8 +2,8 @@ body {
     padding: 1rem 5rem;
 }
 
-p, h1, h2, ul {
-    margin: 0;
+p, h1, h2, ul, a {
+    margin: 5px;
 }
 
 ul, li {
