@@ -16,6 +16,10 @@ ul, li {
     list-style-type: none;
 }
 
+h2 {
+    width: 4rem;
+}
+
 a {
     text-decoration: none;
     color: #8bb3ff;
@@ -59,7 +63,7 @@ a:hover {
     gap: 1rem;
 }
 
-#contact-container {
+.vertical {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
@@ -75,6 +79,9 @@ a:hover {
 @media (max-width: 768px) {
     body {
         padding: 1rem;
+    }
+    h2 {
+        width: auto;
     }
     .container {
         padding: 0.5rem;
