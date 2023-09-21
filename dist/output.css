@@ -562,6 +562,11 @@ video {
   border-style: solid;
 }
 
+.border-babyPink {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 215 219 / var(--tw-border-opacity));
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
