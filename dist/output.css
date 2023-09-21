@@ -533,3 +533,40 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.m-12 {
+  margin: 3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-babyPink {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 215 219 / var(--tw-border-opacity));
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
