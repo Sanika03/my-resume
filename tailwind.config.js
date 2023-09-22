@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         "babyPink": "#F5D7DB",
         "darkBlue": "#06142e",
-      }
+        "babyBlue": "#8bb3ff"
+      },
     },
   },
   plugins: [],
