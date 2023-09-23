@@ -3,10 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    p, ul, a {
-        @apply m-2;
-    }
-    h1, h2 {
+    p, ul, a, h1, h2 {
         @apply m-3;
     }
 }
